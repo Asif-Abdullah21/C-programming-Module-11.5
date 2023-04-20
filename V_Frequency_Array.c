@@ -3,7 +3,7 @@ int main()
 {
     int n,m;
     scanf("%d %d",&n,&m);
-    int a[n+1],cnt[100001]={0};
+    int a[n+1],cnt[100001]={0};//cnt[m+1] doesn't works;
 
     for(int i=0;i<n;i++)
     {
@@ -16,8 +16,6 @@ int main()
         printf("%d\n",cnt[i]);
     }
     
-
-
-    
     return 0;
 }
+
