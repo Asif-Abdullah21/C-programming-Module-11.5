@@ -18,9 +18,9 @@ int main()
             printf("%s\n",s1);
             break;
         }
-        else if(s1[i] =='\0')
+        else if(s2[i] =='\0')
         {
-            printf("%s\n",s1);
+            printf("%s\n",s2);
             break;
         }
 
